@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using TK.MongoDB.GridFS.Repository.NetCore;
 
-namespace TK.MongoDB.GridFS.Repository.Attributes
+namespace TK.MongoDB.GridFS.Attributes
 {
     /// <summary>
     /// Defines GridFS bucket attributes

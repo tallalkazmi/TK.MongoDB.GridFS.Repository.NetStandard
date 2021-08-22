@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using TK.MongoDB.GridFS.Repository.Models;
+using TK.MongoDB.GridFS.Models;
 
-namespace TK.MongoDB.GridFS.Repository.Data
+namespace TK.MongoDB.GridFS.Data
 {
     /// <summary>
     /// File Repository

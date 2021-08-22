@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TK.MongoDB.GridFS.Repository.Classes
+namespace TK.MongoDB.GridFS.Classes
 {
     /// <summary>
     /// The exception that is thrown when an input file name is not of the specified format.

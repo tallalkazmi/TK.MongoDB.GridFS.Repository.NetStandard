@@ -1,4 +1,4 @@
-﻿namespace TK.MongoDB.GridFS.Repository.NetCore
+﻿namespace TK.MongoDB.GridFS
 {
     /// <summary>
     /// Settings for MongoDB connection string

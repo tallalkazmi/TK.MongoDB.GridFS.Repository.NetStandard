@@ -1,7 +1,7 @@
 ﻿using MongoDB.Driver;
 using System;
 
-namespace TK.MongoDB.GridFS.Repository
+namespace TK.MongoDB.GridFS
 {
     internal class MongoDbContext : IDisposable
     {

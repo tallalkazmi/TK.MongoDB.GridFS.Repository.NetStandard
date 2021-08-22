@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson;
 
-namespace TK.MongoDB.GridFS.Repository.Classes
+namespace TK.MongoDB.GridFS.Classes
 {
     /// <summary>
     /// BsonValue conversion

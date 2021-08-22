@@ -12,11 +12,11 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using TK.MongoDB.GridFS.Repository.Attributes;
-using TK.MongoDB.GridFS.Repository.Classes;
-using TK.MongoDB.GridFS.Repository.Models;
+using TK.MongoDB.GridFS.Attributes;
+using TK.MongoDB.GridFS.Classes;
+using TK.MongoDB.GridFS.Models;
 
-namespace TK.MongoDB.GridFS.Repository.Data
+namespace TK.MongoDB.GridFS.Data
 {
     /// <inheritdoc cref="IFileRepository{T}" />
     public class FileRepository<T> : IFileRepository<T> where T : BaseFile

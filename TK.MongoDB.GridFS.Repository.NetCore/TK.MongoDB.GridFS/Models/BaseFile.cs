@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using System;
 
-namespace TK.MongoDB.GridFS.Repository.Models
+namespace TK.MongoDB.GridFS.Models
 {
     /// <summary>
     /// Abstract base file to derive object classes from. Inherit this class to all classes to be used in as data models.
