@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TK.MongoDB.GridFS.Repository", "TK.MongoDB.GridFS.Repository.NetCore\TK.MongoDB.GridFS.Repository.csproj", "{CFD02FA3-A545-4877-9E4D-DE644F8A4B54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFD02FA3-A545-4877-9E4D-DE644F8A4B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD02FA3-A545-4877-9E4D-DE644F8A4B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD02FA3-A545-4877-9E4D-DE644F8A4B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD02FA3-A545-4877-9E4D-DE644F8A4B54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EFE948B-19F3-4247-95E1-BEBDE0E8D1AE}
+	EndGlobalSection
+EndGlobal
