@@ -786,7 +786,7 @@ namespace TK.MongoDB.GridFS.Data
                 FileNameRegex = bucketAttribute.FileNameRegex;
                 MaximumFileSizeInMBs = bucketAttribute.MaximumFileSizeInMBs;
                 BucketChunkSizeInMBs = bucketAttribute.BucketChunkSizeInMBs;
-                ConnectionString = bucketAttribute.ConnectionStringName;
+                ConnectionString = bucketAttribute.ConnectionString;
             }
             else
             {
@@ -797,7 +797,7 @@ namespace TK.MongoDB.GridFS.Data
                 FileNameRegex = bucketAttribute.FileNameRegex;
                 MaximumFileSizeInMBs = bucketAttribute.MaximumFileSizeInMBs;
                 BucketChunkSizeInMBs = bucketAttribute.BucketChunkSizeInMBs;
-                ConnectionString = bucketAttribute.ConnectionStringName;
+                ConnectionString = bucketAttribute.ConnectionString;
             }
         }
     }

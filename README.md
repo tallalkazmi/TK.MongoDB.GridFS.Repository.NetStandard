@@ -10,10 +10,10 @@ Repository pattern implementation of MongoDB GridFS in .NET Standard 2.0
 ## Usage
 #### Settings
 
-1. Default `ConnectionStringSettingName` is set to "*MongoDocConnection*", but you can configure this by calling a static method as below:
+1. Provide MongoDB `ConnectionString` by calling a static method as below:
 
    ```c#
-   Settings.ConnectionStringSettingName = "MongoDocConnection";
+   Settings.ConnectionString = "(connString)";
    ```
 
 
@@ -76,9 +76,9 @@ public class BucketAttribute : Attribute
     public int BucketChunkSizeInMBs { get; set; }
     
     /// <summary>
-    /// Connection String name from *.config file. Default value is set from <i>Settings.ConnectionStringSettingName</i>.
+    /// Connection String from configuration / appsettings file. Default value is set from <i>Settings.ConnectionString</i>.
     /// </summary>
-    public string ConnectionStringName { get; set; };
+    public string ConnectionString { get; set; };
 }
 ```
 
@@ -113,7 +113,7 @@ public class BucketAttribute : Attribute
 4. Insert
 
     ```c#
-    byte[] fileContent = File.ReadAllBytes("../../Files/Omega.png");
+    byte[] fileContent = File.ReadAllBytes("Files/Omega.png");
 
     Image img = new Image()
     {

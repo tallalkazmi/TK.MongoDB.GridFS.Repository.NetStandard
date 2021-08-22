@@ -40,8 +40,8 @@ namespace TK.MongoDB.GridFS.Attributes
         public int BucketChunkSizeInMBs { get; set; } = 2; //2097152 B
 
         /// <summary>
-        /// Connection String name from *.config file. Default value is set from <i>Settings.ConnectionStringSettingName</i>.
+        /// Connection String from configuration / appsettings file. Default value is set from <i>Settings.ConnectionString</i>.
         /// </summary>
-        public string ConnectionStringName { get; set; } = Settings.ConnectionString;
+        public string ConnectionString { get; set; } = Settings.ConnectionString;
     }
 }
