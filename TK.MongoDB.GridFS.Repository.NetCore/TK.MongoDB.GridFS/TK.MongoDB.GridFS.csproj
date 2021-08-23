@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>TK.MongoDB.GridFS.Repository.NetCore</PackageId>
+    <Version>1.0.0-rc1</Version>
+    <Authors>Tallal Kazmi</Authors>
+    <PackageTags>mongodb gridfs repository .netstandard .netcore .net c#</PackageTags>
+    <PackageReleaseNotes>Initial</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/tallalkazmi/TK.MongoDB.GridFS.Repository.NetCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tallalkazmi/TK.MongoDB.GridFS.Repository.NetCore</RepositoryUrl>
+    <Description>Repository pattern implementation of MongoDB GridFS in .NET Standard 2.0</Description>
+    <Copyright>2021</Copyright>
+    <Product>TK.MongoDB.GridFS.Repository.NetCore</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
