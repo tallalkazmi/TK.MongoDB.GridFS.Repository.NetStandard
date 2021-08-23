@@ -5,6 +5,9 @@
 
 trigger:
   batch: true
+  paths:
+    exclude:
+      - azure-pipelines.yml
   branches:
     include:
       - main
