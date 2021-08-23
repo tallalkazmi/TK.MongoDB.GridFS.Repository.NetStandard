@@ -81,7 +81,7 @@ namespace TK.MongoDB.GridFS.Tests
         {
             Settings.ConnectionString = Configuration.GetConnectionString("DefaultConnection");
             IFileRepository<Image> ImageRepository = this.GetRequiredService<IFileRepository<Image>>();
-            byte[] fileContent = File.ReadAllBytes("../../Files/Omega.png");
+            byte[] fileContent = File.ReadAllBytes("Files/Omega.png");
             DateTime now = DateTime.UtcNow;
             Image img = new Image()
             {
@@ -102,7 +102,7 @@ namespace TK.MongoDB.GridFS.Tests
         {
             Settings.ConnectionString = Configuration.GetConnectionString("DefaultConnection");
             IFileRepository<Image> ImageRepository = this.GetRequiredService<IFileRepository<Image>>();
-            byte[] fileContent = File.ReadAllBytes("../../Files/LargeFile.jpg");
+            byte[] fileContent = File.ReadAllBytes("Files/LargeFile.jpg");
 
             DateTime now = DateTime.UtcNow;
             Image img = new Image()
@@ -120,7 +120,7 @@ namespace TK.MongoDB.GridFS.Tests
         {
             Settings.ConnectionString = Configuration.GetConnectionString("DefaultConnection");
             IFileRepository<Image> ImageRepository = this.GetRequiredService<IFileRepository<Image>>();
-            byte[] fileContent = File.ReadAllBytes("../../Files/Omega.png");
+            byte[] fileContent = File.ReadAllBytes("Files/Omega.png");
             DateTime now = DateTime.UtcNow;
             Image img = new Image()
             {
