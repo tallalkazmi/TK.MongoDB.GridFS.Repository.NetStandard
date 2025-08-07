@@ -454,11 +454,7 @@ namespace TK.MongoDB.GridFS.Data
             //Set upload options
             var options = new GridFSUploadOptions
             {
-                Metadata = Metadata,
-#pragma warning disable 618 //Obsolete warning removed
-                //Adding content type here for database viewer. Do not remove.
-                ContentType = FileContentType
-#pragma warning restore 618
+                Metadata = Metadata
             };
 
             //Upload file
@@ -519,11 +515,7 @@ namespace TK.MongoDB.GridFS.Data
             //Set upload options
             var options = new GridFSUploadOptions
             {
-                Metadata = Metadata,
-#pragma warning disable 618 //Obsolete warning removed
-                //Adding content type here for database viewer. Do not remove.
-                ContentType = FileContentType
-#pragma warning restore 618
+                Metadata = Metadata
             };
 
             //Upload file

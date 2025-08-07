@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>TK.MongoDB.GridFS.Repository.NetStandard</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Tallal Kazmi</Authors>
+    <PackageTags>mongodb gridfs repository .netstandard .netcore .net c#</PackageTags>
+    <PackageReleaseNotes>Initial</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/tallalkazmi/TK.MongoDB.GridFS.Repository.NetStandard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tallalkazmi/TK.MongoDB.GridFS.Repository.NetStandard</RepositoryUrl>
+    <Description>Repository pattern implementation of MongoDB GridFS in .NET Standard 2.1</Description>
+    <Copyright>2025</Copyright>
+    <Product>TK.MongoDB.GridFS.Repository.NetStandard</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\Sourcecode\Repos\TK.MongoDB.GridFS.Repository.NetCore\TK.MongoDB.GridFS.Repository.NetCore\TK.MongoDB.GridFS\TK.MongoDB.GridFS.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CG.Pluralization" Version="0.3000.12" />
+    <PackageReference Include="MimeMapping" Version="3.1.0" />
+    <PackageReference Include="MongoDB.Bson" Version="3.4.2" />
+    <PackageReference Include="MongoDB.Driver" Version="3.4.2" />
+  </ItemGroup>
+
+</Project>
