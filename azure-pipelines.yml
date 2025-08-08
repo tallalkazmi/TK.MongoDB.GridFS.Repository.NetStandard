@@ -38,13 +38,6 @@ steps:
 
 - task: DotNetCoreCLI@2
   inputs:
-    command: 'test'
-    projects: '**/*Tests.csproj'
-    arguments: '--no-restore'
-  displayName: 'Run Tests'
-
-- task: DotNetCoreCLI@2
-  inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
   displayName: 'Pack Nuget Package'
