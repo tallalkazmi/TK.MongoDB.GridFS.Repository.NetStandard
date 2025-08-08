@@ -1,0 +1,46 @@
+# ASP.NET Core
+# Build and test ASP.NET Core projects targeting .NET Core.
+# Add steps that run tests, create a NuGet package, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+  batch: true
+  paths:
+    exclude:
+      - azure-pipelines.yml
+  branches:
+    include:
+      - main
+pr:
+  branches:
+    exclude:
+      - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
+    projects: '**/*.csproj'
+  displayName: 'Restore Nuget Packages'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '**/TK.MongoDB.GridFS.csproj'
+    arguments: '--configuration $(buildConfiguration) --no-restore'
+  displayName: 'Build Project'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'pack'
+    packagesToPack: '**/*.csproj'
+  displayName: 'Pack Nuget Package'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
