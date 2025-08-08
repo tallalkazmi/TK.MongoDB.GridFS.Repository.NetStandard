@@ -1,9 +1,9 @@
 # TK.MongoDB.GridFS.Repository.NetStandard
-[![Nuget](https://img.shields.io/nuget/v/TK.MongoDB.GridFS.Repository.NetCore)](https://www.nuget.org/packages/TK.MongoDB.GridFS.Repository.NetCore)
-[![Nuget](https://img.shields.io/nuget/dt/TK.MongoDB.GridFS.Repository.NetCore)](https://www.nuget.org/packages/TK.MongoDB.GridFS.Repository.NetCore)
-![Azure DevOps builds](https://img.shields.io/azure-devops/build/tallalkazmi/79c589e2-20be-4ad6-9b5a-90be5ddc7916/6) 
-![Azure DevOps tests](https://img.shields.io/azure-devops/tests/tallalkazmi/79c589e2-20be-4ad6-9b5a-90be5ddc7916/6) 
-![Azure DevOps releases](https://img.shields.io/azure-devops/release/tallalkazmi/79c589e2-20be-4ad6-9b5a-90be5ddc7916/5/5) 
+[![Nuget](https://img.shields.io/nuget/v/TK.MongoDB.GridFS.Repository.NetStandard)](https://www.nuget.org/packages/TK.MongoDB.GridFS.Repository.NetStandard)
+[![Nuget](https://img.shields.io/nuget/dt/TK.MongoDB.GridFS.Repository.NetStandard)](https://www.nuget.org/packages/TK.MongoDB.GridFS.Repository.NetStandard)
+![Azure DevOps builds](https://img.shields.io/azure-devops/build/tallalkazmi/79c589e2-20be-4ad6-9b5a-90be5ddc7916/7) 
+![Azure DevOps tests](https://img.shields.io/azure-devops/tests/tallalkazmi/79c589e2-20be-4ad6-9b5a-90be5ddc7916/7) 
+![Azure DevOps releases](https://img.shields.io/azure-devops/release/tallalkazmi/79c589e2-20be-4ad6-9b5a-90be5ddc7916/6/6) 
 
 Repository pattern implementation of MongoDB GridFS in .NET Standard 2.1
 
